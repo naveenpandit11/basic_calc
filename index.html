@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body bgcolor="powderblue">
+    <fieldset>
+        <legend><strong><h1>CALCULATOR</h1></strong></legend>
+    <fieldset>
+        <legend><strong>ADD</strong></legend>
+    <form oninput="result.value=parseFloat(num1.value)+parseFloat(num2.value)">
+        X: <input type="number" id="num1" placeholder="Enter First number" name="num1">
+        Y: <input type="number" id="num2" placeholder="Enter Second number" name="num2"><br><br>
+        X + Y : <output name="result" id="result"></output>
+    </form>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend><strong>SUBTRACT</strong></legend>
+    <form oninput="result.value=parseFloat(num1.value)-parseFloat(num2.value)">
+        X: <input type="number" id="num1" placeholder="Enter First number" name="num1">
+        Y: <input type="number" id="num2" placeholder="Enter Second number" name="num2"><br><br>
+        X - Y : <output name="result" id="result"></output>
+    </form>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend><strong>MULTIPLICATION</strong></legend>
+    <form oninput="result.value=parseFloat(num1.value)*parseFloat(num2.value)">
+        X: <input type="number" id="num1" placeholder="Enter First number" name="num1">
+        Y: <input type="number" id="num2" placeholder="Enter Second number" name="num2"><br><br>
+        X * Y : <output name="result" id="result"></output>
+    </form>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend><strong>DIVIDE</strong></legend>
+    <form oninput="result.value=parseFloat(num1.value)/parseFloat(num2.value)">
+        X: <input type="number" id="num1" placeholder="Enter First number" name="num1">
+        Y: <input type="number" id="num2" placeholder="Enter Second number" name="num2"><br><br>
+        X / Y : <output name="result" id="result"></output>
+    </form>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend><strong>POWER</strong></legend>
+    <form oninput="result.value=parseFloat(num1.value)**parseFloat(num2.value)">
+        X: <input type="number" id="num1" placeholder="Enter First number" name="num1">
+        Y: <input type="number" id="num2" placeholder="Enter Second number" name="num2"><br><br>
+        X<sup>y</sup> : <output name="result" id="result"></output>
+    </form>
+    </fieldset>
+    </fieldset>
+</body>
+</html>
